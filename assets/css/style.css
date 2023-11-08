@@ -165,3 +165,11 @@ input[type=radio]:checked+label {
   color: var(--hover-color);
   font-weight: bold;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+  .content {
+    width: 95%;
+  }
+}
