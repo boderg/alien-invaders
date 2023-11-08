@@ -148,3 +148,20 @@ body {
   font-size: 150%;
   font-weight: bold;
 }
+
+.close:hover,
+.close:focus {
+  color: var(--hover-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.radio {
+  margin: 10px;
+  accent-color: var(--hover-color);
+}
+
+input[type=radio]:checked+label {
+  color: var(--hover-color);
+  font-weight: bold;
+}
