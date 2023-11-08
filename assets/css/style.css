@@ -1,4 +1,4 @@
-/* Main body */
+/* Main body and root variables */
 
 * {
   margin: 0;
@@ -14,6 +14,14 @@ body {
   background: linear-gradient(black, black, 90%, darkblue);
 }
 
+:root {
+  --primary-color: rgb(167, 249, 2);
+  --text-bg-color: rgb(31, 30, 30);
+  --modal-bg: rgba(0, 0, 0, 0.8);
+  --hover-color: rgb(255, 165, 0);
+  --main-font: 'Orbitron', sans-serif;
+}
+
 /* Main page, menu and start buttons */
 
 .menu-buttons {
@@ -23,19 +31,19 @@ body {
 
 .menu {
   margin: 30px 15px 30px 15px;
-  color: green;
-  background-color: darkgrey;
+  color: var(--primary-color);
+  background-color: var(--text-bg-color);
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 10px greenyellow;
-  font-family: Orbitron;
+  box-shadow: 0 0 10px var(--primary-color);
+  font-family: var(--main-font);
   font-size: 100%;
   padding: 10px;
 }
 
 .title {
-  color: lightgreen;
-  font-family: Orbitron;
+  color: var(--primary-color);
+  font-family: var(--main-font);
   font-weight: 600;
   font-size: 400%;
   letter-spacing: 1px;
@@ -51,12 +59,12 @@ body {
 }
 
 .enter-button {
-  color: green;
-  background-color: darkgrey;
+  color: var(--primary-color);
+  background-color: var(--text-bg-color);
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 10px lightgreen;
-  font-family: Orbitron;
+  box-shadow: 0 0 10px var(--primary-color);
+  font-family: var(--main-font);
   font-size: 200%;
   min-width: fit-content;
   padding: 20px;
@@ -65,9 +73,9 @@ body {
 /* Footer */
 
 .footer {
-  font-family: Orbitron;
+  font-family: var(--main-font);
   font-weight: 100;
-  color: lightgreen;
+  color: var(--primary-color);
   position: fixed;
   bottom: 0;
   left: 50%;
