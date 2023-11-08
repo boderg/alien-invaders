@@ -107,3 +107,29 @@ body {
   color: var(--hover-color);
   text-decoration: none;
 }
+
+/* Modals */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--modal-bg);
+}
+
+.content {
+  background-color: var(--text-bg-color);
+  color: var(--primary-color);
+  font-family: var(--main-font);
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--primary-color);
+  width: 50%;
+}
