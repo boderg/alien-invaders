@@ -133,3 +133,18 @@ body {
   box-shadow: 0 0 10px var(--primary-color);
   width: 50%;
 }
+
+.content li {
+  list-style: none;
+}
+
+.content #friendly {
+  color: var(--hover-color);
+}
+
+.close {
+  color: var(--primary-color);
+  float: right;
+  font-size: 150%;
+  font-weight: bold;
+}
