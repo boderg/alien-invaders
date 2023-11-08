@@ -57,7 +57,7 @@ body {
   margin-top: 100px;
 }
 
-.center {
+.enter-game {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -177,7 +177,7 @@ input[type=radio]:checked+label {
 /* Enter game flicker animation */
 
 #flicker {
-  animation: letter-flicker 2s linear infinite;
+  animation: letter-flicker 3s linear infinite;
 }
 
 @keyframes letter-flicker {
@@ -186,43 +186,32 @@ input[type=radio]:checked+label {
     text-shadow: 0px 0px 9px var(--primary-color);
   }
   2% {
-    opacity:0.1;
+    opacity:1;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
   4% {
-    opacity:1;
-    text-shadow: 0px 0px 9px var(--primary-color);
-  }
-  19% {
-    opacity:0.6;
-    text-shadow: 0px 0px 9px var(--primary-color);
-  }
-  21% {
     opacity:0.1;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
-  23% {
-    opacity:0.7;
-    text-shadow: 0px 0px 9px var(--primary-color);
-  }
-  80% {
-    opacity:1;
+  19% {
+    opacity:0.9;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
   83% {
-    opacity:0.4;
+    opacity:0.9;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
   87% {
-    opacity:0.9;
+    opacity:0.3;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
-  90% {
-    opacity:0.2;
+  96% {
+    opacity:1;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
   98% {
-    opacity:0.9;
+    opacity:0.2;
     text-shadow: 0px 0px 9px var(--primary-color);
   }
 }
+
