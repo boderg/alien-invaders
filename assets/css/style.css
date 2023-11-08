@@ -22,7 +22,7 @@ body {
   --main-font: 'Orbitron', sans-serif;
 }
 
-/* Main page, menu and start buttons */
+/* Main page title, menu and start buttons */
 
 .menu-buttons {
   display: flex;
@@ -39,6 +39,12 @@ body {
   font-family: var(--main-font);
   font-size: 100%;
   padding: 10px;
+}
+
+.menu:hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px var(--hover-color);
+  transition: all 0.5s ease-in-out;
 }
 
 .title {
@@ -70,6 +76,12 @@ body {
   padding: 20px;
 }
 
+.enter-button:hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px var(--hover-color);
+  transition: all 0.5s ease-in-out;
+}
+
 /* Footer */
 
 .footer {
@@ -82,4 +94,16 @@ body {
   transform: translate(-50%, 0);
   margin: 20px;
   text-align: center;
+}
+
+.footer a,
+.footer a:visited {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:active {
+  color: var(--hover-color);
+  text-decoration: none;
 }
