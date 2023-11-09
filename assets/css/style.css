@@ -50,11 +50,11 @@ body {
 .title {
   color: var(--primary-color);
   font-family: var(--main-font);
-  font-weight: 600;
+  font-weight: 300;
   font-size: 400%;
   letter-spacing: 1px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 4rem;
 }
 
 .enter-game {

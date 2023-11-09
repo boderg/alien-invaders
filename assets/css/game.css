@@ -27,7 +27,7 @@ body {
 .title {
   color: var(--primary-color);
   font-family: var(--main-font);
-  font-weight: 600;
+  font-weight: 300;
   font-size: 200%;
   letter-spacing: 1px;
   text-align: center;
