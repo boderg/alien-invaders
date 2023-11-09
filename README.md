@@ -1,10 +1,11 @@
-# Title
+# 'Alien Invaders!'
 
-- Project description
--
--
--
--
+- Alien Invaders! is a fun and light hearted interactive timed target shooting game with a sci-fi theme.
+- Alien Invaders! has three levels of difficulty (Easy, Medium and Hard) and three timer settings (10, 30 and 60 secs), each of which can be selected from the difficulty modal on the main page.
+- The Start Game button changes to Restart once a game is started and will start the chosen selection again for another go once the timer reaches '0'.
+- On a pc or laptop the game uses the mouse for targeting and mobiles utilise the touch screen.
+- Scores are determined by the ship that has been shot down, but beware as friendlies will deduct points heavily.
+- Each target craft appears for a predetermined period of time and then disappears after that time or if the target craft is shot down before that time has elapsed.
 
 ***
 
@@ -18,31 +19,31 @@
 
 ## UX
 
-- UX description
--
--
+- The design for the Alien Invaders! site was created as a series of wireframes covering mobile, tablet and desktop to visalize the initial design thoughts and layout.  
+- The Alien Invaders! website was designed with ease of use in mind and mobile use at the forefront. This is so users can interact with the game while out and about, for example on the bus or train to work, or while waiting in a queue to pass so time.
+- Once the wireframes for the Alien Invaders! website were created, the web pages were built with a clean look and ease of navigation in mind.
+- A flicker was added to the 'Enter Game' button so as to entice the player to click it and play the game.
+- The game integrates a twinkling starfield background where random stars have a subtle twinkle effect.
 
 ### Colour Scheme
 
-- Colors and choices description
--
+- The primary colours chosen are Green and Grey.
+- These two colours were chosen as they compliment each other along with the aesthetic of the background image to give off a sci-fi / retro game vibe.
 
-- `rgba(,,, )`values
--
--
--
+- `rgb(167, 249, 2)` used for the primary text, button box shadow and links.
+- `rgb(255, 165, 0)` used for the primary text, button box shadow and links when hovered.
+- `rgb(31, 30, 30)` used for the button, modal and display tabs backgound.
+- `rgba(0, 0, 0, 0.8)` used for the modal overlay.
+- `linear-gradient(black, black, 90%, darkblue)` used for the main body background.
 
 ### Typography
 
-- Two fonts were chosen from Google fonts as follows.
+- Just one font has been chosen using the Google fonts library as follows:
 
-- [Concert One](https://fonts.google.com/?query=concert+one) was used for the primary headers, titles and general text.
-This font was chosen for it's bold and rounded aesthetic.
+- [Orbitron](https://fonts.google.com/?query=orbitron) was used for all the text on this project.
+This font was chosen for it's bold aesthetic with it's mix or angular and rounded styles that give it a sci-fi vibe that is also easily legible.
 
-- [Shadows Into Light](https://fonts.google.com/?query=shadows) was used for all menu text and text entry fields.
-This font was chosen for it's hand written aesthetic that I wanted to use for the menu items, portraying a hand written menu.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, specifically as the social media and copyright icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used on the main page of this site as a link to my GitHub page.
 
 ***
 
