@@ -13,7 +13,7 @@
 
 | Light | Dark |
 | --- | --- |
-| ![screenshot](documentation/mockups/....png) | ![screenshot](documentation/mockups/....png) |
+| ![screenshot](documentation/mockups/image file) | ![screenshot](documentation/mockups/image file) |
 
 ***
 
@@ -72,25 +72,13 @@ This font was chosen for it's bold aesthetic with it's mix or angular and rounde
 
 | Mobile | Tablet | Desktop |
 | --- | --- | --- |
-| ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) |
+| ![screenshot](documentation/wireframes/image file) | ![screenshot](documentation/wireframes/image file) | ![screenshot](documentation/wireframes/image file) |
 
-### Menu Pages Wireframes
-
-| Mobile | Tablet | Desktop |
-| --- | --- | --- |
-| ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) |
-
-### ... Page Wireframes
+### Game Pages Wireframes
 
 | Mobile | Tablet | Desktop |
 | --- | --- | --- |
-| ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) |
-
-### ... Page Wireframes
-
-| Mobile | Tablet | Desktop |
-| --- | --- | --- |
-| ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) | ![screenshot](documentation/wireframes/....png) |
+| ![screenshot](documentation/wireframes/image file) | ![screenshot](documentation/wireframes/image file) | ![screenshot](documentation/wireframes/image file) |
 
 ***
 
@@ -102,10 +90,9 @@ The following are existing features of The Bread Shed site along with descriptio
 
 | Feature | Description | Image |
 | --- | --- | --- |
-| .... | .... | ![screenshot](documentation/features/....png) |
-| .... | .... | ![screenshot](documentation/features/....png) |
-| .... | .... | ![screenshot](documentation/features/....png) |
-
+| .... | .... | ![screenshot](documentation/features/image file) |
+| .... | .... | ![screenshot](documentation/features/image file) |
+| .... | .... | ![screenshot](documentation/features/image file) |
 
 ### Future Features
 
