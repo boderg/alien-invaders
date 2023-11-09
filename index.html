@@ -21,7 +21,7 @@
   <nav class="menu-buttons">
     <button class="menu">Instructions</button>
     <button class="menu">About Game</button>
-    <button class="menu">Difficulty</button>
+    <button class="menu">Settings</button>
   </nav>
 
   <header>
@@ -35,7 +35,7 @@
   <div class="modal">
     <div class="content">
       <span class="close">&times;</span>
-      <h2>Mission Brief:</h2><br>
+      <h2>Mission Brief</h2><br>
         <p>Humanity and Earth itself is at risk! <br><br>
           Alien forces are gathering to conquer and plunder Earths's already fragile ecosystem and enslave any remaining humans on the planet. <br><br>
           As part of the Earth Defence League, you are tasked with the protection of all life and resources against the Alien Invaders. <br><br>
@@ -43,12 +43,17 @@
           Man Up soldier and Fight for your survival!
         </p>
         <br><br>
-        <h2>How to Play!</h2><br>
-        <p>The game is timed at 30 secs. <br><br>
+        <h2>How to Play</h2><br>
+        <p>The game is timed, you choose in the settings between:<br>
+          <ul>
+            <li>5 mins,</li>
+            <li>10 mins or</li>
+            <li>15 mins</li>
+          </ul><br>
           Alien ships appear at random and disappear after a pre-determined time period. <br><br>
           It is your mission to target as many of these alien craft as possible. <br><br>
-          Use your mouse to target the enemy in your crosshairs. <br>
-          Fire using left click on your mouse. <br><br>
+          Use your left and right arrow keys to guide your craft and target the enemy.<br>
+          Fire using the space bar or fire button on touchscreens.<br><br>
           Sometimes a friendly defence craft may stray into your firing zone. <br>
           DO NOT attack it or you will lose points! <br><br>
           Points are awarded for each ship destroyed as follows: <br><br>
@@ -68,7 +73,7 @@
       <p>Inspired by a fascination and following of science and science fiction.
       </p><br>
       <p>This game is designed and coded by Simon Boylan for their Code Institute Milestone Project 2.</p><br>
-      <p>Languages used in this project: <br><br>
+      <p>Languages used in this project<br><br>
         <ul>
           <li>HTML5</li>
           <li>CSS</li>
@@ -82,21 +87,27 @@
       <span class="close">&times;</span>
       <h2>Difficulty</h2><br>
         <p>Choose your difficulty level!</p><br>
-        <input class="radio" type="radio" id="easy" name="difficulty" value="Easy">
-        <label for="easy">Easy</label><br>
-        <input class="radio" type="radio" id="medium" name="difficulty" value="Medium">
-        <label for="medium">Medium</label><br>
-        <input class="radio" type="radio" id="hard" name="difficulty" value="Hard">
-        <label for="hard">Hard</label>
-        <br><br>
+          <input class="radio" type="radio" id="easy" name="difficulty" value="Easy">
+          <label for="easy">Easy</label><br>
+          <input class="radio" type="radio" id="medium" name="difficulty" value="Medium">
+          <label for="medium">Medium</label><br>
+          <input class="radio" type="radio" id="hard" name="difficulty" value="Hard">
+          <label for="hard">Hard</label>
+            <br><br>
         <h2>Time Limit</h2><br>
         <p>Choose your time limit!</p><br>
-        <input class="radio" type="radio" id="five" name="time-limit" value="Five">
-        <label for="easy">5 mins</label><br>
-        <input class="radio" type="radio" id="ten" name="time-limit" value="Ten">
-        <label for="medium">10 mins</label><br>
-        <input class="radio" type="radio" id="fifteen" name="time-limit" value="Fifteen">
-        <label for="hard">15 mins</label>
+          <input class="radio" type="radio" id="five" name="time-limit" value="Five">
+          <label for="easy">5 mins</label><br>
+          <input class="radio" type="radio" id="ten" name="time-limit" value="Ten">
+          <label for="medium">10 mins</label><br>
+          <input class="radio" type="radio" id="fifteen" name="time-limit" value="Fifteen">
+          <label for="hard">15 mins</label>
+            <br><br>
+        <h2>Sound</h2><br>
+          <input class="radio" type="radio" id="sound-on" name="sound" value="Sound On">
+          <label for="sound-on">Sound On</label><br>
+          <input class="radio" type="radio" id="sound-off" name="sound" value="Sound Off">
+          <label for="sound-off">Sound Off</label><br>
     </div>
   </div>
 
