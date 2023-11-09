@@ -174,7 +174,7 @@ input[type=radio]:checked+label {
   }
 }
 
-/* Enter game flicker animation */
+/* Enter game button flicker animation */
 
 #flicker {
   animation: letter-flicker 3s linear infinite;
