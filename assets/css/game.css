@@ -33,7 +33,7 @@ body {
   font-size: 200%;
   letter-spacing: 1px;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .menu {
@@ -76,6 +76,25 @@ body {
   color: var(--hover-color);
   box-shadow: 0 0 10px var(--hover-color);
   transition: all 0.5s ease-in-out;
+}
+
+/* Game area */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#game-area {
+  width: 75%;
+  height: 80%;
+  background-image: url(../images/game-backgrounds/star_laden_desert_sky.jpeg);
+  background-size: cover;
+  position: fixed;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--primary-color);
+  z-index: 1;
 }
 
 /* Footer */
