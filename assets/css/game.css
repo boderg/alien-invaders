@@ -47,6 +47,17 @@ body {
   font-size: 100%;
   padding: 10px;
 }
+.display-box {
+  display: flex;
+  justify-content:space-around;
+  width: 75%;
+  margin: 15px auto 0 auto;
+  z-index: 2;
+}
+
+.display {
+  text-align: center;
+}
 
 .back {
   position: fixed;
