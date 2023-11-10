@@ -14,10 +14,10 @@
       rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/game.css">
 
-    <title>Document</title>
+    <title>Alien Invaders!</title>
   </head>
 
-  <body>
+  <body onload="startGame()">
     <header>
       <h1 class="title">Alien Invaders!</h1>
     </header>
@@ -31,9 +31,9 @@
           <p id="score" class="display">Score<br><span class='display'>0</span></p>
         </div>
       </section>
-      <canvas id="game-area">
-
-      </canvas>
+      <div id="game-area">
+        <canvas id="alienGame"></canvas>
+      </div>
     </main>
 
     <div><a href="index.html"><button class="menu back">Back</button></a></div>
