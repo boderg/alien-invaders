@@ -90,7 +90,7 @@ main {
   height: 80%;
   position: fixed;
   z-index: 0;
-  box-shadow: 0 0 10px var(--primary-color);
+  box-shadow: 0 0 20px var(--primary-color);
   background-image: url(/assets/images/game-backgrounds/star_laden_desert_sky.jpeg);
   background-size: cover;
   border-radius: 10px;
