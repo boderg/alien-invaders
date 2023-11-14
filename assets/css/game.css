@@ -47,6 +47,19 @@ body {
   font-size: 100%;
   padding: 10px;
 }
+
+.menu-game {
+  margin: 0 0 15px 0;
+  color: var(--primary-color);
+  background-color: var(--text-bg-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px var(--primary-color);
+  font-family: var(--main-font);
+  font-size: 100%;
+  padding: 10px;
+}
+
 .display-box {
   display: flex;
   justify-content:space-around;
