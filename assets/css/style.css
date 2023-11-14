@@ -43,7 +43,7 @@ body {
 
 .menu:hover {
   color: var(--hover-color);
-  box-shadow: 0 0 10px var(--hover-color);
+  box-shadow: inset 0 0 10px var(--hover-color);
   transition: all 0.5s ease-in-out;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .enter-button:hover {
   color: var(--hover-color);
-  box-shadow: 0 0 10px var(--hover-color);
+  box-shadow: inset 0 0 10px var(--hover-color);
   transition: all 0.5s ease-in-out;
 }
 
