@@ -87,6 +87,7 @@ body {
 .footer {
   font-family: var(--main-font);
   font-weight: 100;
+  font-size: 0.75em;
   color: var(--primary-color);
   position: fixed;
   bottom: 0;
