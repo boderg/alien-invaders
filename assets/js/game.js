@@ -22,7 +22,6 @@ function startGame() {
   ctx.clearRect(0, 0, canvas.width, canvas.height); // clear the canvas
   ctx.drawImage(friendly, friendlyX, 125, friendly.width / 35, friendly.height / 35);
 }
-}
 
-setInterval(game, 1000/60);
+setInterval(startGame, 1000/60);
 
