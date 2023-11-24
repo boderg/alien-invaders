@@ -1,7 +1,7 @@
 # 'Alien Invaders!'
 
 - Alien Invaders! is a fun and light hearted interactive timed target shooting game with a sci-fi theme.
-- Alien Invaders! has three levels of difficulty (Easy, Medium and Hard) and three timer settings (10, 30 and 60 secs), each of which can be selected from the difficulty modal on the main page.
+- Alien Invaders! has three levels of difficulty (Easy, Medium and Hard) and three timer settings (2, 4 and 6 minutes), each of which can be selected from the difficulty modal on the main page.
 - The Start Game button changes to Restart once a game is started and will start the chosen selection again for another go once the timer reaches '0'.
 - On a pc or laptop the game uses the mouse for targeting and mobiles utilise the touch screen.
 - Scores are determined by the ship that has been shot down, but beware as friendlies will deduct points heavily.
